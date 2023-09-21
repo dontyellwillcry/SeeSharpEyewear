@@ -6,14 +6,14 @@ namespace SeeSharpEyewear.Services;
 public static class ShadesService
 {
     static List<Shades> Shades { get; }
-    static int nextId = 3;
+    static int nextId = 4;
     static ShadesService()
     {
         Shades = new List<Shades>
         {
             new Shades { Id = 1, Name = "Ray-Ban Clubmaster", Color = "Brown / Gold", Shape = "browline" },
-            new Shades { Id = 1, Name = "Ottoto Bellona", Color = "Pink / Gold", Shape = "Oval" },
-            new Shades { Id = 1, Name = "Oakley Socket 5.5", Color = "Gunmetal", Shape = "Rectangle" },
+            new Shades { Id = 2, Name = "Ottoto Bellona", Color = "Pink / Gold", Shape = "Oval" },
+            new Shades { Id = 3, Name = "Oakley Socket 5.5", Color = "Gunmetal", Shape = "Rectangle" },
 
         };
     }
