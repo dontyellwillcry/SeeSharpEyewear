@@ -7,6 +7,7 @@ namespace SeeSharpEyewear.Controllers;
 [ApiController]
 [Route("[controller]")]
 public class ShadesController : ControllerBase
+// http://localhost:5168/Shades
 {
     public ShadesController()
     {

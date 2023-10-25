@@ -5,6 +5,7 @@ namespace SeeSharpEyewear.Controllers;
 [ApiController]
 [Route("[controller]")]
 public class WeatherForecastController : ControllerBase
+// http://localhost:5168/WeatherForecast
 {
     private static readonly string[] Summaries = new[]
     {
